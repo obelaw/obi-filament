@@ -1,0 +1,16 @@
+{
+    "name": "obelaw/obi",
+    "description": "Obelaw AI",
+    "autoload": {
+        "psr-4": {
+            "Obelaw\\Obi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karim Mohamed",
+            "email": "komicho1996@gmail.com"
+        }
+    ],
+    "require": {}
+}
