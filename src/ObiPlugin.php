@@ -24,7 +24,7 @@ class ObiPlugin implements Plugin
         $panel
             ->userMenuItems([
                 Action::make('obi-chat-assistant')
-                    ->label('Obi Chat Assistant')
+                    ->label(config('obi.agent.nickname', 'Obi') . ' Chat Assistant')
                     ->icon('heroicon-o-sparkles')
                     ->modalContent(
                         fn(): HtmlString => new HtmlString(
@@ -33,7 +33,7 @@ class ObiPlugin implements Plugin
                     )
                     ->slideOver(false)
                     ->modalWidth('lg')
-                    ->modalHeading('Obi Chat Assistant')
+                    ->modalHeading(config('obi.agent.nickname', 'Obi') . ' Chat Assistant')
                     ->modalSubmitAction(false)
                     ->modalCancelAction(false)
             ])
