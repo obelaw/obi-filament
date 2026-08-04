@@ -13,10 +13,7 @@
         }
     ],
     "require": {
-        "obelaw/obi-laravel": "dev-main",
-        "symfony/http-client": "^7.3",
-        "nyholm/psr7": "^1.8",
-        "psr/http-client": "^1.0"
+       
     },
     "extra": {
         "laravel": {
